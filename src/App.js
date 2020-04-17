@@ -1,8 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import routes from './Routes';
 
 function App() {
   return (
-    <h1>Hola Mundo</h1>
+    <Router>
+      <Navigation />
+      <div className="container mt-4">
+        <Switch>
+          { routes }
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
