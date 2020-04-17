@@ -13,14 +13,16 @@ class Articulo extends Component {
 
   render() { 
     return ( 
-      <Card className="mt-3" style={{ backgroundColor: '#1933e2' }}>
-        <CardBody>
-          <CardTitle style={{ color: 'white' }}>{ this.state.nombre }</CardTitle>
-          <CardText style={{ color: 'white' }}>
+      <CardBody>
+      <Card className="mt-3" style={{ backgroundColor: '#c7f8ff' }}>
+       
+          <CardTitle style={{ color: 'black' }}>{ this.state.nombre }</CardTitle>
+          <CardText style={{ color: 'black' }}>
             {`Cantidades: ${this.state.cantidad} - talla: ${this.state.talla} - color: ${this.state.color}`}
           </CardText>
-        </CardBody>
+      
       </Card>
+      </CardBody>
      );
   }
 }
