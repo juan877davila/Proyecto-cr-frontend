@@ -17,7 +17,7 @@ class Articulo extends Component {
         <CardBody>
           <CardTitle style={{ color: 'white' }}>{ this.state.nombre }</CardTitle>
           <CardText style={{ color: 'white' }}>
-            {`Cantidades: ${this.state.cantidad} - talla: ${this.state.talla} -color: ${this.state.color}`}
+            {`Cantidades: ${this.state.cantidad} - talla: ${this.state.talla} - color: ${this.state.color}`}
           </CardText>
         </CardBody>
       </Card>
