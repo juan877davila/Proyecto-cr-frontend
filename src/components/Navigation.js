@@ -29,17 +29,17 @@ const Navigation = (props) => {
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink>
-                <Link to="/Inventario">Inventario</Link>
+                <Link to="/inventario">Inventario</Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                  <Link to="/crear-articulo">Crear Articulo</Link>
+                  <Link to="/crear-articulo">Crear articulo</Link>
                 </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                  <Link to="/actualizar-inventario">Actualizar Inventario</Link>
+                  <Link to="/actualizar-inventario">Actualizar inventario</Link>
                 </NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
